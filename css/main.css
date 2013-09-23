@@ -219,9 +219,47 @@ textarea {
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
+.activate-buttons button {
+   display: block;
+   margin-bottom: 0.5em;
+}
+.new-account .big {
+  font-size: 2rem;
+  color: #222;
+}
+.new-account .interest-details {
+  line-height: 2.5em;
+  color: #222;
+}
+.new-account .interest {
+  font-size: 2em;
+}
+.new-account .number-label {
+  background: none;
+  line-height: 2rem;
+  vertical-align: middle;
+}
+.new-account .number {
+  background: #efefef;
+  border-radius: 3px;
+  padding: 2px 4px;
+  letter-spacing: 2px;
+  color: #222;
+}
+.new-account .number + p {
+  margin-top: 1em;
+}
+
+body {
+  background: #FF8D00;
+  color: #fff;
+}
 
 @media only screen and (min-width: 35em) {
     /* Style adjustments for viewports that meet the condition */
+   .activate-buttons button {
+     display: inline;
+   }
 }
 
 @media print,
