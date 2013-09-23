@@ -270,10 +270,37 @@ textarea {
   margin-top: 1.5em;
 }
 
+ .unlockAccount{
+    margin: auto;
+    width: 15em;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 0.7em;
+    padding: 0.5em;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.padlockicon{
+  width: 1.5em;
+  height: 1.5em;
+  padding: 0.3em;
+}
+
+
+.transaction{
+  list-style-type: none;
+  font-size: 0.7em;
+}
+
 body {
   background: #FF8D00;
   color: #fff;
   text-align: center;
+}
+.unlockAccount{
+    margin: auto;
+    width: 15em;
+    background-color: rgba(255,255,255,0.5);
 }
 
 @media only screen and (min-width: 35em) {
