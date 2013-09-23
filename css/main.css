@@ -220,6 +220,9 @@ textarea {
    Modify as content requires.
    ========================================================================== */
 .activate-buttons button {
+  margin: 0 auto;
+}
+.activate-buttons button {
    display: block;
    margin-bottom: 0.5em;
 }
@@ -230,14 +233,26 @@ textarea {
 .new-account .interest-details {
   line-height: 2.5em;
   color: #222;
+  text-align: center;
+}
+.new-account .interest-details h3 {
+  margin-top: 0;
+}
+.new-account .interest-details .account {
+  display: inline-block;
+  background: #efefef;
+  border-radius: 3px;
+  padding: 0.75em;
 }
 .new-account .interest {
   font-size: 2em;
 }
 .new-account .number-label {
   background: none;
-  line-height: 2rem;
-  vertical-align: middle;
+  line-height: 2.6rem;
+  height: 2.6rem;
+  font-size: 1.25rem;
+  display: inline-block;
 }
 .new-account .number {
   background: #efefef;
@@ -245,14 +260,20 @@ textarea {
   padding: 2px 4px;
   letter-spacing: 2px;
   color: #222;
+  display: inline-block;
+  line-height: 2.6rem;
+  position: relative;
+  top: 0.3rem;
+  left: 0.5rem;
 }
-.new-account .number + p {
-  margin-top: 1em;
+.new-account .account-info + p {
+  margin-top: 1.5em;
 }
 
 body {
   background: #FF8D00;
   color: #fff;
+  text-align: center;
 }
 
 @media only screen and (min-width: 35em) {
